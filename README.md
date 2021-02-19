@@ -1,7 +1,8 @@
-#post请求导出文件
+# post请求导出文件
 
-
+## 代码
 ```
+import axios from 'axios';
 export function exportFileUtils(params, url, filename) {
   axios({
     method: 'post',
